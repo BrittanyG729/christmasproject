@@ -1,0 +1,20 @@
+:root{
+    font-style: italic;
+    font-style:bold;
+    background-color: red;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.movies img {
+    max-width: 100%;
+}
+
+.movie-card {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
